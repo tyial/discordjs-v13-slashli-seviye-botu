@@ -6,7 +6,15 @@ Eğer botu glitch üzerinden çalıştırıyorsanız `package.json` dosyasını 
 
 ```json
 {
+  "name": "seviye-botu",
+  "version": "1.0.0",
+  "description": "Tyial tarafından geliştirilen, optimize edilebilir bir Discord slash komutlarıyla çalışan seviye botu altyapısı.",
   "main": "App.js",
+  "license": "MIT",
+  "author": {
+    "name": "Tyial",
+    "url": "https://tyial.xyz/"
+  },
   "scripts": {
     "start": "node App.js"
   },
@@ -18,6 +26,18 @@ Eğer botu glitch üzerinden çalıştırıyorsanız `package.json` dosyasını 
     "fs": "^0.0.1-security",
     "puppeteer": "^22.14.0",
     "wio.db": "^4.0.22"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "seviye",
+    "altyapı",
+    "tyial",
+    "Tyial"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tyial/discordjs-v13-slashli-seviye-botu.git"
   },
   "engines": {
     "node": "16.x"
