@@ -1,5 +1,32 @@
 # 🎉 **Tyial.XYZ - Discord.JS v13 Slashlı Seviye Botu Altyapısı** 🚀
 
+## 📢 Bilgilendirme:
+
+Eğer botu glitch üzerinden çalıştırıyorsanız `package.json` dosyasını aşağıdaki gibi düzenleyin.
+
+```json
+{
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^1.6.1",
+    "@discordjs/rest": "^0.3.0",
+    "advanced-logs": "^2.1.3",
+    "discord.js": "^13.6.0",
+    "fs": "^0.0.1-security",
+    "puppeteer": "^22.14.0",
+    "wio.db": "^4.0.22"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
+```
+
+---
+
 ## 🚀 **Nasıl Yüklenir/Ayarlanır:**
 
 1. **🛠️ Setup.bat'ı çalıştırın.**
